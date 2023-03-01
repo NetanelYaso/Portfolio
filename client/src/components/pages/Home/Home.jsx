@@ -37,13 +37,13 @@
 //                 position: 'absolute',
 //                 bottom: 1,
 //                 left: 0,
-//                 bg: 'red.400',
+//                 bg: 'orange.400',
 //                 zIndex: -1,
 //               }}>
 //               Hi There,
 //             </Text>
 //             <br />
-//             <Text as={'span'} color={'red.400'}>
+//             <Text as={'span'} color={'orange.400'}>
 //               use everywhere!
 //             </Text>
 //           </Heading>
@@ -60,9 +60,9 @@
 //               size={'lg'}
 //               fontWeight={'normal'}
 //               px={6}
-//               colorScheme={'red'}
-//               bg={'red.400'}
-//               _hover={{ bg: 'red.500' }}>
+//               colorScheme={'orange'}
+//               bg={'orange.400'}
+//               _hover={{ bg: 'orange.500' }}>
 //               Get started
 //             </Button>
 //           </Stack>
@@ -108,7 +108,6 @@ import {
   Text,
   useBreakpointValue,
 } from '@chakra-ui/react';
-// import { TypeAnimation } from 'react-type-animation';
 
 export default function Home() {
   return (
@@ -126,14 +125,14 @@ export default function Home() {
                 position: 'absolute',
                 bottom: 1,
                 left: 0,
-                bg: 'red.400',
+                bg: 'orange.300',
                 zIndex: -1,
               }}>
               Hi I'm Netanel Yaso,
             </Text>
             <br />{' '}
-            <Text color={'red.400'} as={'span'}>
-              Design Projects
+            <Text color={'orange.300'} as={'span'}>
+              Full Stack Developer
             </Text>{' '}
           </Heading>
           <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
@@ -143,10 +142,10 @@ export default function Home() {
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             <Button
               rounded={'full'}
-              bg={'red.400'}
+              bg={'orange.400'}
               color={'white'}
               _hover={{
-                bg: 'red.500',
+                bg: 'orange.300',
               }}>
               Create Project
             </Button>
@@ -162,8 +161,9 @@ export default function Home() {
           w={'60%'}
           h={'60%'}
           src={
-            'images/netanel-3.png'
+            'images/netanel-11.png'
           }
+          rounded={"full"}
         />
       </Flex>
     </Stack>
