@@ -23,27 +23,27 @@ export const projectsData = [
     },
     {
         id: 4,
-        image: "images/lawyers-projects.png",
+        image: "images/anime&manga-project.png",
         name: "lawyers",
         description: "Caffè latte is a coffee beverage of Italian origin made with espresso and steamed milk.",
-        sendTo:""
+        sendTo:"https://github.com/NetanelYaso/anime-and-manga-website"
 
     },
-    {
-        id: 5,
-        image: "images/lawyers-projects.png",
-        name: "lawyers",
-        description: "Caffè latte is a coffee beverage of Italian origin made with espresso and steamed milk.",
-        sendTo:""
+    // {
+    //     id: 5,
+    //     image: "images/lawyers-projects.png",
+    //     name: "lawyers",
+    //     description: "Caffè latte is a coffee beverage of Italian origin made with espresso and steamed milk.",
+    //     sendTo:""
 
-    },
-    {
-        id: 6,
-        image: "images/lawyers-projects.png",
-        name: "lawyers",
-        description: "Caffè latte is a coffee beverage of Italian origin made with espresso and steamed milk.",
-        sendTo:""
+    // },
+    // {
+    //     id: 6,
+    //     image: "images/lawyers-projects.png",
+    //     name: "lawyers",
+    //     description: "Caffè latte is a coffee beverage of Italian origin made with espresso and steamed milk.",
+    //     sendTo:""
 
-    },
+    // },
 
 ]

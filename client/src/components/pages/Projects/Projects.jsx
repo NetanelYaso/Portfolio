@@ -35,14 +35,15 @@ export default function Projects() {
                 </Stack>
               </CardBody>
               <CardFooter className="d-grid gap-2" >
-                <Button
-                  rounded={'full'}
-                  bg={'orange.400'}
-                  color="white"
-                  _hover={{ bg: 'orange.300' }}
-                  onClick={()=><Link href=""/>}>
-                  See Me In Github
-                </Button>
+                <Link href={project.sendTo}>
+                  <Button
+                    rounded={'full'}
+                    bg={'green.400'}
+                    color="white"
+                    _hover={{ bg: 'green.300' }}>
+                    See Me In Github
+                  </Button>
+                </Link>
               </CardFooter>
             </Card>
           </MDBCol>
